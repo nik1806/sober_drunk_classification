@@ -19,18 +19,18 @@ I have used virtual environments for handling the dependencies. Run the followin
 pip install -r requirements.txt
 ```
 
-## Executing the program
+## Executing the program (classical ML approach)
 * At the current level, all four images are used to classify a person as sober or drunk, but taken from set 1 and 4.
 
 ### Attempt to analyze the image
 * In __image_hist.ipynb__ an intutive attemtp to analyze the intensity of pixels using histogram is performed.
 
-### Formatting the dataset for use in classification
+### Extracting features from the dataset for use in classification
 * Copy __CV_problem_sober_drunk_database__ folder inside the repository.
 * Execute all the cells in __feature_extractor.ipynb__ then
 
-### Working with classifier
+### Running of classifier
 * Execute all the cells in __svm_classifier.ipynb__ (More details are provided inside each cell).
 
-## Results
+## Results (ml)
 * After training and validation, received __57.8% accuracy on testset__. (Results can be seen in last cell of __drunk_classifier.ipynb__)
