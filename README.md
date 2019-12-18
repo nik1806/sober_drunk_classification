@@ -23,10 +23,11 @@ pip install -r requirements.txt
 * At the current level, all four images are used to classify a person as sober or drunk, but taken from set 1 and 4.
 
 ### Attempt to analyze the image
-* In __image_hist.ipynb__ an intutive attemtp to analyze the intensity of pixels using histogram is performed.
+* In __image_hist.ipynb__ an intuitive attempt to analyze the intensity of pixels using histogram is performed.
 
 ### Extracting features from the dataset for use in classification
 * Copy __CV_problem_sober_drunk_database__ folder inside the repository.
+* Execute all cells in __dataset_creation.ipynb__ to segregate images for further use.
 * Execute all the cells in __feature_extractor.ipynb__ then
 
 ### Running of classifier
