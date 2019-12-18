@@ -27,6 +27,7 @@ pip install -r requirements.txt
 
 ### Formatting the dataset for use in classification
 * Copy __CV_problem_sober_drunk_database__ folder inside the repository.
+* Execute all cells in __dataset_creation.ipynb__ to segregate images for further use.
 * Execute all the cells in __feature_extractor.ipynb__ then
 
 ### Working with classifier
